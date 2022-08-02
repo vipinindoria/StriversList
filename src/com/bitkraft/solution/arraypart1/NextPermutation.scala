@@ -25,7 +25,6 @@ object NextPermutation {
     while(idx1 >= 0 && nums(idx1) > nums(idx1 + 1)) {
       idx1 = idx1 -1
     }
-    println(idx1)
     if (idx1 >= 0) {
       var idx2: Int = nums.length - 1
       while (nums(idx2) <= nums(idx1)) {
